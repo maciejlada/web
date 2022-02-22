@@ -67,6 +67,7 @@ header ul {
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hobbies li {
