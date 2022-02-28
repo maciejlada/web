@@ -1,90 +1,47 @@
+<!--Pamietaj by usunąć komentarzer z pliku w projekcie -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Maciej Łada - CV</title>
-        <link rel ="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <img class="profile-picture"src="images/default-avatar.png" alt="Zdjęcie CV"/>
-                <div>
-                    <h1>Maciej Łada</h1>
-                    <span>Obecne stanowisko - Tester oprogramowania</span>
-                    <div>
-                        <a class="cv-download" href="https://store4.gofile.io/download/ef6e1b1a-c6e5-4797-9716-374071907b5f/Regulamin-ORM-2018.pdf"> Pobierz CV </a>
-                    </div>
-                </div>
-                <address>
-                    <ul>
-                        <li><img class="address_icon" src="images/phone.png" alt="Phone icon"><b>Numer telefonu: </b><a href="tel:111222333">111 222 333</a></li>
-                        <li><img class="address_icon" src="images/mail.png" alt="Mail icon"><b>E-mail: </b><a href="mailto:maciej.lada4@gmail.com">maciej.lada4@gmail.com</a></li>
-                        <li><img class="address_icon" src="images/pin.png" alt="Pin icon"><b>Miejsce zamieszkania: </b>Opole</li>
-                        <li><img class="address_icon" src="images/birthday-cake.png" alt="Cake icon"><b>Data urodzenia: </b>24/04/1992</li>                
-                    </ul>
-                </address>
-            </header>
-            <main>
-                <section>
-                    <h2>O mnie</h2>
-                    <p>Lorem <b>ipsum</b> dolor sit <u>amet</u> consectetur adipisicing elit. Expedita consectetur quod labore autem, repellat cupiditate incidunt necessitatibus atque quos, magnam, ipsam excepturi! Reprehenderit ipsum optio, velit officiis cupiditate tenetur possimus?
-                    </p>
-                </section>
-                <section>
-                    <h2>Doświadczenie zawodowe</h2>
-                    <ul>
-                        <li>Tester oprogramowania</li>
-                        <li>Tester oprogramowania</li>
-                        <li>Specjalista ds. technicznych</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Wykształcenie</h2>
-                    <ul>
-                        <li>AGH</li>
-                        <li>AGH</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Języki obce</h2>
-                    <ul>
-                        <li>Angielski - poziom średniozaawansowany</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Zainteresowania</h2>
-                    <ul class="hobbies">
-                        <li>
-                            <div>
-                                <img src="images/bike.png" alt="Bike icon" />
-                                <h3>Kolarstwo</h3>
-                            </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur consectetur cumque dolorem, nobis incidunt nemo aliquid. Officia facere, laudantium commodi odio fuga culpa, ullam excepturi aperiam, mollitia enim impedit.</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="images/drink.png" alt="bootle icon" />
-                                <h3>Miksologia</h3>
-                            </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptatem, in maxime sapiente fuga repellendus, ipsam eligendi illum eius deserunt pariatur officia unde distinctio nemo non atque voluptates itaque cum!</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="images/watch.png" alt="watch icon" />
-                                <h3>Zegarki</h3>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui quos vel, saepe nobis, ad delectus voluptatibus corporis tenetur architecto hic blanditiis iusto placeat. Quasi et natus accusantium! Quo, atque!</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="images/book.png" alt="book icon" />
-                                <h3>Literatura</h3>
-                            </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, sint recusandae magnam cupiditate obcaecati modi unde placeat a deserunt iusto voluptates suscipit error eos temporibus quisquam maxime perspiciatis accusantium eius!</p>
-                        </li>
-                    </ul>
-                </section>
-            </main> 
-        </div>     
-    </body>
+<html lang="pl">
+
+<head>
+  <!--Dwa pierwsze zawsze w tym miejscu 1. znacznik meta dotyczy kodowanie znaków 2. zancznik meta to informacje, ze strona jest przygotowana takze na urządzenia mobilne wersja (przegladarka dostosuje pewne paramtry wyświetlaczy urzadzeń mobilnych do tego)-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--  informacja dla przeglądarek Microsoft. Uruchom mnie w najwyższym twoim trybie (nie jest konieczne) -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--  Dwa bardzo ważne meta znaczniki z punktu widzenia dostępności strony i pozycjonowania -->
+  <title>Kwiaciarnia Jerzy. Czynne 24h. Gdańsk</title>
+  <meta name="description" content="Kwiaciarnia w Trójmieście, która robi niesamowite kwiaty w super cenach. Śluby, pogrzeby, dzień nauczyciela? Wpadaj!">
+
+  <!-- Importowanie fontów - dodaj własne jeśli chcesz zamiast tych (tylko fonty, których użyjemy na stronie)-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+  <!-- style css, najlpiej umieszczone w innym folderze by nie zasmiecać katalogu głównego. W tym projekcie w katalogu css-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--  Mało ważny meta znacznik (słowa kluczowe) z punktu widzenia pozycjonowania czy dostępności, ale jednak może się znaleźć na stronie -->
+  <meta name='keywords' content='kwiaciarnia, kwiaty, pogrzeby, bukiety, kwiaty na ślub, ubieranei sali'>
+
+  <!--  Zaproszenie robotów wyszukiwarek do indeksowania (nie musimy dodawać, bo jest domyślnie, ale możemy) -->
+  <meta name='robots' content='index,follow'>
+
+  <!--   32 x 32 W tym przypadku w folderze głównym -->
+  <link rel="icon" href="favicon.png">
+  <!--  Dodaj też (dla starych przeglądarek) favicon.ico w rozmiarze 16x16 też w katalogu głównym -->
+
+  <!--  Meta tagi na na FB - wypłenij swoimi treściami -->
+
+  <meta name='url' content='http://nazwadomenty.pl'>
+  <meta property="og:title" content="Najlepsza kwiaciarnia w Gdańsku" />
+  <meta property="og:image" content="http://nazwadomeny.pl/img/fbook.png" />
+  <!--Obrazek w rozmairze 1200px na 640px fb. Umeiść obrazke zgodnie ze ścieżką powyzej-->
+  <meta property="og:description" content="Projekt od podstaw do pierwszej pracy jako front-end developer" />
+  <meta property="og:type" content="article" />
+</head>
+
+<body>
+  <p>Tu zawartość strony</p>
+</body>
+
 </html>
