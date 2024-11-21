@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>stlite app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.73.0/build/stlite.css"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.73.0/build/stlite.js"></script>
+    <script>
+stlite.mount(
+  {
+    requirements: [],
+    entrypoint: "streamlit_app.py",
+    files: {
+"streamlit_app.py": `import streamlit as st
+
+st.title("TEST TEST")
+`,
+
+},
+  },
+  document.getElementById("root")
+)
+
+    </script>
+  </body>
+  <!-- Generated from stlite sharing (https://edit.share.stlite.net/), and the source version is 58c1c123c078a91f89c7ef3e43e4c09d3aba6a92 -->
+</html>
